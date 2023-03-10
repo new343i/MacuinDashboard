@@ -47,3 +47,8 @@ Route::get('/consDepart', function () {
 Route::get('/asignarAux', function () {
     return view('asigAuxiliar');
 });
+
+Route::get('/consulUsu', function (){
+    return view('/inicio');
+});
+
